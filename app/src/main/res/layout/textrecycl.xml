@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyvw_txt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:scrollbars="none" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="7dp"
+            android:nestedScrollingEnabled="false"
+            android:src="@android:drawable/ic_input_add"
+            android:visibility="gone"
+            app:elevation="6dp"
+            app:pressedTranslationZ="12dp" />
+
+        <io.codetail.widget.RevealFrameLayout
+            android:id="@+id/revelfram"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <RelativeLayout
+                android:id="@+id/reveal_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/white"
+                android:visibility="invisible">
+
+                <RelativeLayout
+                    android:id="@+id/relclrbtns"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+
+
+                    >
+
+                    <TextView
+                        android:id="@+id/okbtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="16dp"
+                        android:paddingBottom="5dp"
+                        android:text="OK"
+                        android:textColor="@color/txtclr_ok" />
+
+                    <TextView
+                        android:id="@+id/cancelbtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@+id/okbtn"
+                        android:layout_marginRight="16dp"
+                        android:layout_toLeftOf="@+id/okbtn"
+                        android:paddingBottom="5dp"
+                        android:text="Cancel"
+                        android:textColor="@color/txtclr_ok" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rel_add_clrview"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_above="@+id/relclrbtns"
+                    android:gravity="center">
+
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+        </io.codetail.widget.RevealFrameLayout>
+    </RelativeLayout>
+
+
+</RelativeLayout>

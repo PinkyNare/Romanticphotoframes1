@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#e91e63</color>
+    <color name="colorPrimaryDark">#c2185b</color>
+    <color name="colorAccent">#c2185b</color>
+
+    <color name="tabscolor">@color/colorPrimaryDark</color>
+    <color name="appcolorclk">@color/colorPrimary</color>
+    <color name="txtclr_ok">#c2185b</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="white50">#80FFFFFF</color>
+
+    <color name="black50">#99000000</color>
+
+
+    <color name="trns45white">#73FFFFFF</color>
+    <color name="trns85white">#D9FFFFFF</color>
+    <color name="txtshwcolor">#353f44</color>
+    <color name="trns85black">#50000000</color>
+    <color name="balck99">#F2000000</color>
+    <color name="gray">#FF766868</color>
+    <color name="black">#263238</color>
+    <color name="grey45">#d6d6d6</color>
+    <color name="grey85">#c2c2c2</color>
+    <color name="lightpink">#c2185b</color>
+    <color name="fontclickclr">#80cbc4</color>
+
+
+    <color name="crop__button_bar">#f3f3f3</color>
+    <color name="crop__button_text">#666666</color>
+    <color name="crop__selector_pressed">#1a000000</color>
+    <color name="crop__selector_focused">#77000000</color>
+
+</resources>

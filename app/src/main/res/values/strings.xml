@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Romantic photo frames</string>
+
+    <string name="App_id"></string>
+
+    <string name="Banner_Ad_id"></string>
+    <string name="Interstitial_Ad_id_entry"></string>
+
+    <string name="Interstitial_Ad_id_entryonsave"></string>
+
+    <string name="crop__saving">Saving picture</string>
+    <string name="crop__wait">Please wait</string>
+    <string name="crop__pick_error">No image sources available</string>
+    <string name="crop__done">Done</string>
+    <string name="crop__cancel">Cancel</string>
+
+    <string name="share">Share</string>
+
+    <string name="pakklocltelugu">पक्क  लोकल् </string>
+    <string name="usedname">रोमांटिक् फोटो फ्रैम्स्</string>
+
+    <string name="subname">/n फोटो फ्रैम्स्</string>
+    <string name="textstyltext">Pakka Local</string>
+    <string name="textstylefontstyle">Font Style</string>
+    <string name="keybrdtext">अआ</string>
+
+    <string name="camera_name">केमेरा</string>
+    <string name="galry_name">ग्यालरी</string>
+
+
+</resources>

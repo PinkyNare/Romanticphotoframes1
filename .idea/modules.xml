@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Romantic photo frames.iml" filepath="$PROJECT_DIR$/Romantic photo frames.iml" />
+      <module fileurl="file://F:/After Hike 2k18/Romantic photo frames/Taj Mahal Photo Frames.iml" filepath="F:/After Hike 2k18/Romantic photo frames/Taj Mahal Photo Frames.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+    </modules>
+  </component>
+</project>

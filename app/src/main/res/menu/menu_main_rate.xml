@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity" >
+
+     <item
+        android:id="@+id/action_rate_us"
+        android:orderInCategory="101"
+        android:title="Like"
+        app:showAsAction="never"/>
+     <item
+        android:id="@+id/action_more"
+        android:orderInCategory="102"
+        android:title="More in Store [AD]"
+        app:showAsAction="never"/>
+
+     <item
+         android:id="@+id/action_privacy"
+         android:orderInCategory="102"
+         android:title="Privacy"
+         app:showAsAction="never"
+          />
+
+
+</menu>

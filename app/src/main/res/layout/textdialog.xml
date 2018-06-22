@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativedialog"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/grey85">
+
+    <LinearLayout
+        android:id="@+id/textLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/trns85black"
+        android:clickable="true"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rel_editused"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@color/white"
+            android:gravity="center_horizontal"
+            android:padding="3dp">
+
+            <EditText
+                android:id="@+id/messageEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="3dp"
+                android:background="@null"
+                android:clickable="false"
+                android:ems="10"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:gravity="left|top"
+                android:hint="Compose your message"
+                android:inputType="textMultiLine"
+                android:maxLines="5"
+                android:padding="7dp"
+                android:scrollbars="vertical"
+                android:textColor="@color/black"
+                android:textColorHint="@color/white"
+                android:textCursorDrawable="@drawable/color_cursor" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/okcanclelayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/txtshwcolor"
+            android:gravity="center"
+            android:paddingBottom="2dp"
+            android:paddingTop="2dp">
+
+            <ImageView
+                android:id="@+id/textCancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:clickable="true"
+                android:onClick="textStyleCancel"
+                android:paddingLeft="10dp"
+                android:src="@drawable/ic_crop_close" />
+
+            <ImageView
+                android:id="@+id/textOk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:clickable="true"
+                android:onClick="textStyleOk"
+                android:paddingRight="10dp"
+                android:src="@drawable/ic_cropdone" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/textOk"
+                android:layout_toRightOf="@+id/textCancel"
+                android:gravity="center"
+                android:padding="2dp"
+                android:paddingLeft="3dp"
+                android:paddingRight="3dp">
+
+                <android.support.design.widget.TabLayout
+                    android:id="@+id/texttabsdatshow"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_collapseMode="pin"
+                    app:tabSelectedTextColor="@color/lightpink"
+                    app:tabTextColor="@color/white" />
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/rel_pagerprms"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentBottom="true"
+            >
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/txtmviewpager"
+                android:layout_width="match_parent"
+                android:layout_height="200dip"
+                android:layout_alignParentBottom="true"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+
